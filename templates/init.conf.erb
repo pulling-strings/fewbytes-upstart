@@ -6,7 +6,7 @@ stop on <%= @stop_on %>
 <% if @expect -%>
 expect <%= @expect %>
 <% end -%>
-<% chpst_args = nil -%>
+<% chpst_args = '' -%>
 <% if @chdir -%>
 chdir <%= @chdir %>
 <% end -%>
